@@ -4,12 +4,14 @@
 
               </div>
 
-              <div  class="m2">
+<!--              <div  class="m2">-->
 
-                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目内容：对不同时间段、不同季节、不同天气、不同节假日对车辆停放的影响进行可视化分析，对共享单车投放量进行合理的预测,为单车运营商提供运营参考
-  </span>
+<!--                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目内容：对不同时间段、不同季节、不同天气、不同节假日对车辆停放的影响进行可视化分析，对共享单车投放量进行合理的预测,为单车运营商提供运营参考-->
+<!--  </span>-->
 
-              </div>
+<!--              </div>-->
+  <h1>项目内容：对不同时间段、不同季节、不同天气、不同节假日对车辆停放的影响进行可视化分析，对共享单车投放量进行合理的预测,为单车运营商提供运营参考
+    </h1>
 
               <div  class="m1">
                 <span>软件工程小学期实践项目</span>
@@ -44,16 +46,18 @@ export default {
 
 .m1{
   font-family: 楷体;
-  font-size:15px;
+  font-size:20px;
 }
 
 .m2{
   margin-left: 30%;
   margin-right: 30%;
   height: 150px;
+  width: 500px;
   border: 10px solid var(--el-border-color);
   margin-bottom:10px;
-  font-size: 20px;
+  font-family: 楷体;
+  font-size:20px;
   text-align: center;
 
 }

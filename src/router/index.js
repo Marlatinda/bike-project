@@ -4,6 +4,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import  predict from '../show_views/predict'
 import  introduce from '../show_views/introduce'
 import  history from '../show_views/history'
+import  history2 from '../show_views/history2'
+import  weather from '../show_views/weather'
+import  weather2 from '../show_views/weather2'
+import  weather3 from '../show_views/weather3'
 
 const routes = [
 
@@ -43,6 +47,26 @@ const routes = [
         path: '/history',
         name: 'history',
         component: history
+      },
+      {
+        path: '/history2',
+        name: 'history2',
+        component: history2
+      },
+      {
+        path: '/weather',
+        name: 'weather',
+        component: weather
+      },
+      {
+        path: '/weather2',
+        name: 'weather2',
+        component: weather2
+      },
+      {
+        path: '/weather3',
+        name: 'weather3',
+        component: weather3
       }
     ]
 

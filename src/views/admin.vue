@@ -212,6 +212,7 @@ export default {
     }).then(function (resp){
       _this.tableData = resp.data
       console.log(resp)
+      console.log(_this.tableData)
     })
   }
 }
